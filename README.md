@@ -54,7 +54,17 @@ If the control input changes to AB = 10, then all the gates are restricted excep
  
 ### Procedure
 
+1.Start the module using module projname().
 
+2.Declare the inputs and outputs along with the select lines according to the multiplexer and demultiplexer.
+
+3.Use wire to assign intermediate outputs.
+
+4.Use and,or and not gates to get the desired output.
+
+5.End the module.
+
+6.Generate RTL realization and timing diagrams.
 
 
 ### PROGRAM 
@@ -103,6 +113,7 @@ endmodule
 
 ### TRUTH TABLE 
 
+![muxtt](https://user-images.githubusercontent.com/94154683/171184283-34e5304c-d2b1-4b68-aaa1-7cb4b8591524.jpg)
 
 
 ### PROGRAM:
@@ -130,5 +141,12 @@ endmodule
 
 ### TIMING DIAGRAM:
 
+![dmtt](https://user-images.githubusercontent.com/94154683/171184556-6e3d5e2c-0b8d-4b23-a5dc-071238e3f9a8.png)
+
+### TRUTH TABLE:
+
+![dd](https://user-images.githubusercontent.com/94154683/171184657-372c166d-d88f-4e70-8644-cb47d5092f01.png)
+
 
 ### RESULTS 
+Thus the program to design a 4x1 multiplexer and 1x4 demultiplexer is done successful.
