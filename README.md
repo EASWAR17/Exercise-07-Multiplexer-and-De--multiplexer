@@ -105,7 +105,30 @@ endmodule
 
 
 
+### PROGRAM:
+```
+Program for flipflops  and verify its truth table in quartus using Verilog programming.
+Developed by: EASWAR.J
+RegisterNumber:  212221230024
 
+PROGRAM:
+module dm(s1,s2,i1,i2,i3,i4,y);
+input s1,s2,i1,i2,i3,i4;
+output y;
+wire a,b,c,d,e,f;
+assign e=~s1;
+assign f=~s2;
+assign a=i1&e&f;
+assign b=i2&e&s2;
+assign c=i3&s1&f;
+assign d=i4&s1&s2;
+assign y=a|b|c|d;
+endmodule
+```
+### RTL LOGIC  
+![image](https://user-images.githubusercontent.com/94154683/171138991-5e761b81-aa56-4221-9d89-908a12220396.png)
+
+### TIMING DIAGRAM:
 
 
 ### RESULTS 
